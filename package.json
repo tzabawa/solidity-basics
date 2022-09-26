@@ -1,0 +1,14 @@
+{
+  "name": "solidity-inbox",
+  "version": "1.0.0",
+  "description": "Solidity Inbox project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tim Zabawa",
+  "license": "ISC",
+  "dependencies": {
+    "solc": "^0.4.17"
+  }
+}
