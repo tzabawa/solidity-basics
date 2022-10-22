@@ -3,8 +3,10 @@ const Web3 = require("web3");
 const { interface, bytecode } = require("./compile");
 
 const provider = new HDWalletProvider(
-  "junior elite gate true palace layer provide town ask wheel knock biology",
-  "https://goerli.infura.io/v3/0b3ceaa6c1db43ffb31c85e91bf870c3"
+  "REPLACE_WITH_YOUR_MNEMONIC",
+  // remember to change this to your own phrase!
+  "REPLACE_WITH_YOUR_ENDPOINT"
+  // remember to change this to your own endpoint!
 );
 const web3 = new Web3(provider);
 
